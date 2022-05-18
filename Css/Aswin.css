@@ -1,0 +1,16 @@
+
+    h1{
+        background-color:greenyellow;
+        text-align: center;
+        font-size: 50px;
+        text-shadow: 5px 3px black;
+    }
+    p
+    {
+        color:lawngreen;
+        text-align: center;
+        font-size: 60px;
+        font-size: italic;
+        background-color: aqua;
+
+    }
