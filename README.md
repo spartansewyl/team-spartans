@@ -28,3 +28,8 @@ shruthi
 20cs131
 shruthi1218
 shruthi.g2020it@sece.ac.in
+
+senthamizharasu m s
+20cs124
+Senthamizharasu-MS
+senthamizharasum.ms2020cse@sece.ac.in
