@@ -1,0 +1,21 @@
+.body{
+    margin: 0%;
+}
+
+h1{
+    background-color: yellowgreen;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    padding:10px 30px 50px 10px;
+    opacity: 100%;
+    margin: 10px;
+    text-decoration: dotted;
+
+}
+p{
+    color: yellow;
+    font-size: 150px;
+    font-style: italic; 
+    margin: 20px;
+}
