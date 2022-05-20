@@ -1,0 +1,15 @@
+
+ h1{
+    background-color: rgb(158, 65, 65);
+    padding-left: 30%;
+    }
+.img{
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    padding: 2px;
+    }
+    p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    }

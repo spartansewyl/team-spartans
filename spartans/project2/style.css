@@ -1,0 +1,19 @@
+h1{
+    background-color:yellowgreen;
+    text-align: center;
+    opacity: 90%;
+    font-size: 50;
+
+}
+h2{
+    font-size: 50;
+    text-align: center;
+    background-color: red;
+}
+p{
+    
+    padding-top: 50px;
+    padding-left: 700px;
+    padding-bottom: 50px;
+    
+}

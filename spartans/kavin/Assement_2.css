@@ -14,14 +14,14 @@
     position:absolute;
     top: 30px;
     opacity: 85%;
-    right: 15%;
+    right: 10%;
 }
 #search_bar{
     width: 200px;
     height: 30px;
     position:absolute;
     top: 32px;
-    right: 19%;
+    right: 15%;
     border-radius: 10;
     border: 0ch;
 }
@@ -31,13 +31,13 @@
     position:absolute;
     top:30px;
     opacity: 85%;
-    right: 10%;
+    right: 5%;
 }
 #profile{
     width: 100px;
     height: 100px;
     position:absolute;
-    top: -25%;
+    top: -4%;
     opacity: 100%;
     right: 45%;
     color: white;
@@ -48,7 +48,7 @@
     width: 10px;
     height: 100px;
     position:absolute;
-    top: -48%;
+    top: -40%;
     opacity: 100%;
     right: 54%;
     color: white;
@@ -76,17 +76,35 @@
     transform: translate(-50%, -50%);
   }
   .content_page{
-      margin: 30px;
       padding-top: 80px;
-     
       margin-left: 250px ;
       margin-right: 250px;
-      background-color: white;
-      position: absolute;
-      transform: translate(0,-50%) ;
-      
+      background-color: white; 
+      transform: translate(0,-70px) ;
+    
   }
-  .content{
-      position: absolute;
-      right: 100px;
+  #content{
+      position:absolute;
+      top: 100px;
+      left: 600px;
+     
+  }
+  .topic{
+      margin-top: 5%;
+  }
+  .list{
+      margin-left: 5%;
+      margin-top: 1.5%;
+      margin-bottom: 1%;
+      font-size: 22px;
+  }
+  #book{
+      margin-top: 2%;
+      height: 5%;
+      width: 20%;
+      background-color: rgb(241, 48, 48);
+      color: white;
+      border-radius: 10px;
+      border: 0ch;
+      
   }
