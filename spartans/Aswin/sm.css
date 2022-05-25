@@ -59,6 +59,7 @@
     height: 110px;
 
 }
+
 .newsa {
 
     display: flex;
@@ -67,16 +68,19 @@
     text-decoration: none;
     font-weight: bolder;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
+
 .news1 {
 
     font-size: 35px;
     color: white;
 
 }
+
 .smheading {
 
     display: flex;
@@ -87,6 +91,7 @@ a{
     margin-right: 51px;
 
 }
+
 h1:hover {
 
     transition-delay: 0.5s;
@@ -94,6 +99,7 @@ h1:hover {
     border-bottom: 2.5px solid rgb(165tr, 22, 72);
 
 }
+
 .add {
 
     text-align: end;
@@ -101,11 +107,13 @@ h1:hover {
     margin-right: 300px;
 
 }
+
 .img1 {
 
     margin-left: 525px;
 
 }
+
 h6 {
 
     color: blue;
@@ -114,6 +122,7 @@ h6 {
     cursor: pointer;
 
 }
+
 .i2 {
 
     display: flex;
@@ -122,6 +131,7 @@ h6 {
     font-size: 24px;
 
 }
+
 .i21 {
 
     text-align: inherit;
@@ -141,6 +151,7 @@ h6 {
     margin-top: 122px;
 
 }
+
 .i3 {
 
     display: flex;
@@ -150,6 +161,7 @@ h6 {
     color: black;
 
 }
+
 .i31 {
 
     display: flex;
@@ -161,6 +173,7 @@ h6 {
     background-color: antiquewhite;
 
 }
+
 .img4 {
 
     display: flex;
@@ -168,6 +181,7 @@ h6 {
     margin-top: -464px;
 
 }
+
 .i4 {
 
     display: flex;
@@ -176,6 +190,7 @@ h6 {
     margin-left: -440px;
 
 }
+
 .i41 {
 
     display: flex;
@@ -186,6 +201,7 @@ h6 {
     background-color: antiquewhite;
 
 }
+
 .img5 {
 
     display: flex;
@@ -193,6 +209,7 @@ h6 {
     margin-top: -495px;
 
 }
+
 .i5 {
 
     display: flex;
@@ -200,6 +217,7 @@ h6 {
     margin-left: -440px;
 
 }
+
 .i51 {
 
     display: flex;
@@ -210,12 +228,14 @@ h6 {
     background-color: antiquewhite;
 
 }
+
 .img6 {
 
     display: flex;
     margin-top: 30px;
 
 }
+
 .i6 {
 
     display: flex;
@@ -224,6 +244,7 @@ h6 {
     font-size: 17px;
 
 }
+
 .i61 {
 
     display: flex;
@@ -233,6 +254,7 @@ h6 {
     background-color: antiquewhite;
 
 }
+
 .img7 {
 
     display: flex;
@@ -240,6 +262,7 @@ h6 {
     margin-top: -446px;
 
 }
+
 .i7 {
 
     display: flex;
@@ -247,6 +270,7 @@ h6 {
     margin-left: -440px;
 
 }
+
 .i71 {
 
     display: flex;
@@ -256,6 +280,7 @@ h6 {
     background-color: antiquewhite;
 
 }
+
 .features {
 
     display: flex;
@@ -265,6 +290,7 @@ h6 {
     color: rgb(0, 0, 0);
 
 }
+
 .fimg {
 
     display: flex;
@@ -272,6 +298,7 @@ h6 {
     margin-top: 20px;
 
 }
+
 .fi1 {
 
     display: flex;
@@ -279,6 +306,7 @@ h6 {
     margin-left: -250px;
 
 }
+
 .fimg2 {
 
     display: flex;
@@ -286,6 +314,7 @@ h6 {
     margin-top: -228px;
 
 }
+
 .fi2 {
 
     display: flex;
@@ -293,6 +322,7 @@ h6 {
     margin-left: -230px;
 
 }
+
 .fimg3 {
 
     display: flex;
@@ -300,6 +330,7 @@ h6 {
     margin-top: -227px;
 
 }
+
 .fi3 {
 
     display: flex;
@@ -307,6 +338,7 @@ h6 {
     margin-left: -220px;
 
 }
+
 .fimg4 {
 
     display: flex;
@@ -314,6 +346,7 @@ h6 {
     margin-top: -228px;
 
 }
+
 .fi4 {
 
     display: flex;
@@ -321,32 +354,73 @@ h6 {
     margin-left: -220px;
 
 }
+
 .latestnews {
 
     display: flex;
     margin-left: 650px;
     font-size: 25px;
 }
+
 .ln1 {
 
     margin-top: 42px;
     font-size: 20px;
     display: flex;
-    text-align: center;
     margin-left: -132px;
 
 }
+
 .ln2 {
 
     display: flex;
     margin-top: 188px;
-    margin-left: -206;
-    
+    margin-left: -155px;
+
 
 }
+
 .lni {
 
     margin-top: 250px;
-    margin-left: -627px;
+    margin-left: -457px;
 
+}
+
+.lu {
+
+    display: flex;
+    margin-left: 460px;
+
+}
+
+.lu1 {
+
+    display: flex;
+    margin-left: 400px;
+    justify-content: space-between;
+    width: 60px;
+    margin-top: 10px;
+    background: red;
+
+}
+
+.last {
+
+    display: flex;
+    margin-left: 200px;
+    font-size: 25px;
+    color: rgb(113, 57, 57);
+
+}
+
+.li2 {
+    margin-left: 200px;
+}
+
+.finial {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    cursor: pointer;
 }
