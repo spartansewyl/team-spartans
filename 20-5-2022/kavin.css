@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+
+}
+#email{
+    display: flex;
+}
+#left{
+    width: 10%;
+    background-color: aqua;
+    
+}
+#right{
+    width: 80%;
+}
+#settings{
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    
+}
+#settings a{
+    margin-top: 25px;
+    margin-left:25px ;
+}
