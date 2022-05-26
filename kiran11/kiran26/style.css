@@ -1,0 +1,13 @@
+*{
+    margin: 25% 50%;
+}
+.username,.password{
+    display: flex;
+}
+.username input .password input{
+    width: 100%;
+    background: transparent;
+    padding:10px;
+    outline: none;
+    border:0;
+}
