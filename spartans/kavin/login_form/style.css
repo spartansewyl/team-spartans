@@ -9,15 +9,15 @@
   align-items: center;
   margin-top: 20%;
 }
-.body{
-    width: 100%;
+.body {
+  width: 100%;
 }
-.login_form input{
-    margin-bottom: 30px;
+.login_form input {
+  margin-bottom: 30px;
 }
-#display{
+#display {
   font-size: 30px;
-  font-weight:bold;
+  font-weight: bold;
   align-items: center;
   margin-left: 800px;
 }
