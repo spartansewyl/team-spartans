@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.main{
+    display: flex;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+.main img{
+    width: 400px;
+    height: 400px;
+    padding-right: 150px;
+}
+#head{
+    color:rgb(15, 18, 18);
+    padding-top: 50px;
+}
+#para{
+    display: flex;
+    padding-top: 30px;
+    color: rgb(17, 15, 15);
+}
+#onclick{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: blue;
+    background-color: rgb(160, 194, 223);
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
