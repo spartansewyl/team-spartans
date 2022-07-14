@@ -3,7 +3,7 @@
     padding: 0%;
 
 }
-.main{
+/* .main{
     display: flex;
     margin-top: 15%;
     margin-left: 15%;
@@ -30,4 +30,41 @@
     padding-left: 15px;
     padding-right: 15px;
 
+}
+ */
+ .main {
+  display: flex;
+  align-items: center;
+  
+  margin-top: 50px;
+}
+.img {
+  width: 600px;
+}
+.side {
+}
+#onclick:hover {
+  color: red;
+  box-shadow: 1px 1px 12px 1px;
+}
+#onclick {
+  width: 150px;
+  height: 30px;
+  margin-top: 20px;
+}
+.img {
+    width: 50%;
+    align-items: center;
+}
+
+
+@media  screen and (max-width: 768px) {
+    #para {
+        color: red;
+    }
+    .main img{
+        width: 200px;
+        height: 200px;
+    }
+    
 }

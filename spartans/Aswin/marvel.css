@@ -1,3 +1,7 @@
+.all{
+    width: 100%;
+
+}
 .heading {
     margin: 0px;
     font-size: 8px;
@@ -42,7 +46,7 @@ Element body {
 }
 
 .img {
-    width: -moz-available;
+   width: 100%;
     display: flex;
 }
 
@@ -175,8 +179,8 @@ Element body {
 }
 
 .midimg {
-    width: -moz-available;
     display: flex;
+    width: 100%;
 
 }
 
