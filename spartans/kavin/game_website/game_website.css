@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: hsl(236, 17%, 17%);
+    color: #a7a5a5;
+}
+.offer{
+    font-size: 15px;
+    font-family:'Poppins', sans-serif;
+}
+.menu_items{
+    font-family:'Oxanium', sans-serif;
+    color: white;
+}

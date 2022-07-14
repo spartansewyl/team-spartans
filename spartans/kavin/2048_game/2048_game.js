@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded',() => {
             squares[i +3].innerHTML = newRow[3]
           }
         }
+        generateNumber()
       }
 
       function moveLeft() {
@@ -62,6 +63,7 @@ document.addEventListener('DOMContentLoaded',() => {
             squares[i +3].innerHTML = newRow[3]
           }
         }
+        generateNumber()
       }
       function moveUp() {
         for (let i=0; i < 4; i++) {
@@ -81,6 +83,7 @@ document.addEventListener('DOMContentLoaded',() => {
           squares[i+(width*2)].innerHTML = newColumn[2]
           squares[i+(width*3)].innerHTML = newColumn[3]
         }
+        generateNumber()
       }
     
       function moveDown() {

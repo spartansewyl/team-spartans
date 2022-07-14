@@ -40,6 +40,7 @@ nav{
     opacity: 0.9;
     max-height: 0;
     transition: max-height 0.15s;
+    overflow: hidden;
 }
 .Search_box{
      background: black;
@@ -92,9 +93,6 @@ nav{
 .All_apps p{
     font-size: 13px;
     padding-left: 5px;
-    
-}
-.apps{
     
 }
 .row{
