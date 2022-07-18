@@ -1,0 +1,13 @@
+*{
+ margin: 0;
+ padding:0;
+}
+.container{
+    height:50px;
+    width:100%;
+    background-color:rgb(5, 127, 164);
+}
+h1{
+    text-align: center;
+    padding: 1%;
+}
