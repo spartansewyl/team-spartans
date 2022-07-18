@@ -7,8 +7,8 @@ function Product({ id, title, image, price, rating }) {
   console.log(basket)
   const additem = () => {
     dispatch({
+      type: "ADD_TO_BASKET",
       item: {
-        type: "Add_to_basket",
         id: id,
         title: title,
         image: image,
@@ -16,6 +16,7 @@ function Product({ id, title, image, price, rating }) {
         rating: rating,
       },
     });
+    
   };
   return (
     <div className="products_container">
@@ -29,7 +30,7 @@ function Product({ id, title, image, price, rating }) {
           {Array(rating)
             .fill()
             .map((_, i) => (
-              <p>*</p>
+              <p key={i}>*</p>
             ))}
         </div>
       </div>
