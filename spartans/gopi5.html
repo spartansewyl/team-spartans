@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>
+            INDIAN PREMIER LEAGUE clone website
+           <link rel="stylesheet" type="text/css" href="C:\spartans\team-spartans\spartans\gopi\ipl.css">
+        </title>
+        <style>
+        #banner{
+            background: url("https://i.pinimg.com/originals/f4/0c/fe/f40cfef2ef26c8f87ea65894d0ba41d7.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        .banner-text{
+            text-align: center;
+            color:blue;
+        }
+        .banner-text h1{
+            font-size: 100px;
+        }
+        .banner-text h2{
+            font-size: 50px;
+            font-style: italic;
+        }
+        .banner-ta{
+            margin: 70px auto 0;
+        }
+        .banner-ta a{
+            width: 150px;
+            text-decoration: none;
+            display: inline-block;
+            margin:0 10px;
+            border: .5px;
+        }
+        #sidenav{
+            width:120px;
+            height: 100vh;
+            position: fixed;
+            right: 0;
+            top: 0;
+            background-color: aqua;
+
+        }
+    </style>
+        <body>
+         <section id="banner">
+           <img src="data:image/png;base64,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" class="logo">
+           <div class="banner-text">
+               <h1>TATA</h1>
+               <h2>ipl 2022</h2>
+               <div class="banner-ta">
+                <a href="#">Find out</a>
+                <a href="#">Read more</a>
+               </div>
+           </div>
+         </section>
+         <div id="sidenav">
+          <nav>
+              <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">points table</a></li>
+              </ul>
+          </nav>
+         </div>
+        </body>
+    </head>
+</html>
