@@ -1,0 +1,16 @@
+.loginPage__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.loginPage__container img{
+    width: 200px;
+    height: fit-content;
+}
+.loginPage__Details{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
