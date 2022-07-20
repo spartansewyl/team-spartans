@@ -1,7 +1,7 @@
-// const getLocalStoreData = JSON.parse(localStorage.getItem("basketItems")) || [];
+const getLocalStoreData = JSON.parse(localStorage.getItem("basketItems")) || [];
 
 export const initialState = {
-  basket: [],
+  basket: getLocalStoreData,
   user: null,
 };
 
@@ -11,7 +11,10 @@ export const gettotal = (basket) =>
 const reducer = (state, action) => {
   switch (action.type) {
     case "ADD_TO_BASKET":
-      // localStorage.setItem('basketItems', JSON.stringify([...state.basket, action.item]));
+      localStorage.setItem(
+        "basketItems",
+        JSON.stringify([...state.basket, action.item])
+      );
       return {
         ...state,
         basket: [...state.basket, action.item],
