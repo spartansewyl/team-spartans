@@ -1,0 +1,8 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+img.image {
+    display: flex;
+    width: 25%;
+}
