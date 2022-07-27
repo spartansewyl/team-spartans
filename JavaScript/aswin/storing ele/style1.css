@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.fcolor{
+height: 50px;
+background-color: rgb(129, 193, 250);
+}
+
+img {
+    width: 400px;
+    padding-left: 500px;
+
+}
+.form {
+    margin-left: 636px;
+    margin-top: 200px;
+}
+.sign {
+    text-align: center;
+    font-style: normal;
+    font-size: 25px;
+    background-color: #4a8f95;
+    
+}    
+form#internForm {
+    margin-right: 660px;
+}
+body {
+    background-color: #76737642;
+}
+.intern {
+    justify-content: space-evenly;
+}
+
+
+
+@media only screen and (max-width:960px) {
+
+    body {
+        background-color: #e816e842;
+    }        
+    
+
+    
+}    
