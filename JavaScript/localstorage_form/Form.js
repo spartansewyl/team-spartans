@@ -23,17 +23,20 @@ function displayDetails() {
   let htmlData;
   let studentData = JSON.parse(localStorage.getItem("StudentDetails"));
   if (studentData != null) {
-    studentData.forEach((element) => {
-      htmlData += `<span>${element.emailValue}</span><br>
+    htmlData = studentData.map((element,i) => {
+      return `<div class="${i}" ><span>${element.emailValue}</span><br>
       <span>${element.Password}</span><br>
       <span>${element.PhoneNumber}</span><br>
-      <button onclick="deleteDetail(event)">Delete</button><br>`;
-    });
+      <button onclick="deleteDetail(event)">Delete</button><br></div>`;
+    }).join("");
   }
   display.innerHTML = htmlData;
 }
 displayDetails();
 
 function deleteDetail(params) {
-    console.log(params.target.parent)
+    let x = params.target;
+    let y = x.parentElement.className
+    let z = document.getElementsByClassName(y);
+    z.remove();
 }
