@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./style1.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <img src="./GMX_Black.png" />
+    </div>
+    <div>
+      <div class="fcolor"></div>
+      <div class="form">
+        <form id="internForm">
+          <p class="sign">Sign In📌</p>
+          <br />
+          <input
+            type="text"
+            placeholder="Intern name"
+            name="name"
+            required
+          /><br /><br />
+
+          <input
+            type="number"
+            placeholder="Intern id"
+            name="id"
+            required
+          /><br /><br />
+
+          <input
+            type="password"
+            placeholder="Intern Password"
+            name="password"
+            id="password"
+            required
+          /><br /><br />
+
+          <input type="checkbox" onclick="myFunction()" />Show Password<br /><br />
+
+          <button onclick="myMove()">summit🤝</button>
+          <div id="animate"></div>
+        </form>
+      </div>
+    </div>
+    <div class="intern"></div>
+    <script src="./script1.js"></script>
+  </body>
+</html>
